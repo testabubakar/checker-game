@@ -1,0 +1,21 @@
+{
+  "name": "automate-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cy:open": "npx cypress open",
+    "cy:run:headed": "npx cypress run --headed",
+    "cy:run": "npx cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^21.7.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
